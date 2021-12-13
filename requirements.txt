@@ -1,0 +1,4 @@
+kfp
+pandas
+sklearn
+google-cloud-aiplatform

@@ -1,0 +1,16 @@
+name: Ingest data
+description: Prepare data from BigQuery
+inputs: null
+outputs:
+- name: train_path
+  description: GCS path where train dataset will be stored
+  type: Dataset
+implementation:
+  container:
+    image: ???
+    command:
+    - python
+    - main.py
+    args:
+    - --train_path
+    - outputUri: train_path
